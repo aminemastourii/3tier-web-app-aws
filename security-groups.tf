@@ -18,7 +18,7 @@ resource "aws_security_group" "lb-sg" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-
+#if you want ssh acces to your server , add this ingress rule 
   #   ingress {
   #     description = "ssh access"
   #     from_port   = 22
@@ -87,7 +87,7 @@ resource "aws_security_group" "asg-sg" {
 
 resource "aws_security_group" "rds-sg" {
   name        = "rds-security-group"
-  description = "Allow mysql  access to and  from the ASG security group"
+  description = "Allow mysql  access  from the ASG security group"
   vpc_id      = aws_vpc.dev.id
 
   ingress {
