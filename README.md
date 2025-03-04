@@ -63,7 +63,7 @@ terraform destroy -auto-approve
 ```
 
      # Documentation
-```
+
 
 ## 📌 Notes
 - Modify **variables.tf** to customize instance types, region, and other parameters.
