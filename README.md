@@ -62,20 +62,7 @@ To destroy all resources and prevent charges, run:
 terraform destroy -auto-approve
 ```
 
-## 📂 Repository Structure
-```
-│── modules/
-│   ├── networking/        # VPC, subnets, NAT, route tables
-│   ├── security/          # Security groups, IAM roles
-│   ├── compute/           # EC2 instances, Auto Scaling
-│   ├── load_balancer/     # ALB configuration
-│   ├── database/          # RDS configuration
-│   ├── dns/               # Route 53 configuration
-│
-│── main.tf                # Root Terraform configuration
-│── variables.tf            # Input variables
-│── outputs.tf              # Output values
-│── README.md               # Documentation
+     # Documentation
 ```
 
 ## 📌 Notes
