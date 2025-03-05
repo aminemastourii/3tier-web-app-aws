@@ -26,7 +26,7 @@ Follow these steps to deploy the infrastructure:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-github-repo-link.git
+git clone git@github.com:aminemastourii/3tier-web-app-aws.git
 cd your-repo-folder
 ```
 
