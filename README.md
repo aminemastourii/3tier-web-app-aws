@@ -1,5 +1,11 @@
 # Deploying a Scalable Web Application on AWS with Terraform
 
+
+![Uploading Final 3 Tier Diagram.svg…]()
+
+
+
+
 This repository contains Terraform scripts to deploy a scalable and resilient web application on AWS. The infrastructure is designed for high availability, security, and automation using AWS services.
 
 ## 🏗 Architecture Overview
