@@ -1,7 +1,7 @@
 # Deploying a Scalable Web Application on AWS with Terraform
 
 
-![Uploading 3 Tier Architecture AWS Diagram.png…]()
+
 
 
 
